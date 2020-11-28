@@ -5,7 +5,7 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -20,7 +20,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b50788d-8ca9-4357-9599-6bfd6e7e7487" name="Default Changelist" comment="" />
+    <list default="true" id="9b50788d-8ca9-4357-9599-6bfd6e7e7487" name="Default Changelist" comment="Change delay, tweak workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,10 +44,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../STM32F412GT6U-Blinking-LED" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\123\CLionProjects\STM32_Blinking" />
+    </key>
   </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD STM32_Blinking">
     <configuration name="STM32_Blinking.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32_Blinking" TARGET_NAME="STM32_Blinking.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="STM32_Blinking" RUN_TARGET_NAME="STM32_Blinking.elf">
@@ -82,8 +96,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606593970175</updated>
-      <workItem from="1606593993534" duration="1659000" />
+      <workItem from="1606593993534" duration="2299000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial">
+      <created>1606595803948</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606595803949</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Change delay, tweak workspace.xml">
+      <created>1606595975914</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606595975914</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,7 +126,7 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="true" />
+                  <entry key="Show.Git.Branches" value="false" />
                 </map>
               </option>
             </State>
@@ -105,6 +134,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial" />
+    <MESSAGE value="Change delay, tweak workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change delay, tweak workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="24" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606594454953">
@@ -127,5 +161,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1606595641215" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1606595986676">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1606595986676" />
   </component>
 </project>
