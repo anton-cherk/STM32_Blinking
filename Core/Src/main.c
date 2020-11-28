@@ -103,7 +103,7 @@ int main(void) {
         /* USER CODE END WHILE */
         for (int i = 0; i < SIZE; i++) {
             HAL_GPIO_TogglePin(GPIOE, gpio_pins[i]);
-            HAL_Delay(25);
+            HAL_Delay(50);
         }
 
         /* USER CODE BEGIN 3 */
