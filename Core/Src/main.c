@@ -19,6 +19,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include <stdlib.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -88,22 +89,32 @@ int main(void) {
     /* USER CODE BEGIN 2 */
 
     /* USER CODE END 2 */
-    const int SIZE = 4;
-    char* gpio_pins[4];
-    gpio_pins[0] = (char *) GPIO_PIN_0;
-    gpio_pins[1] = (char *) GPIO_PIN_1;
-    gpio_pins[2] = (char *) GPIO_PIN_2;
-    gpio_pins[3] = (char *) GPIO_PIN_3;
 
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
-
     while (1) {
-
-        /* USER CODE END WHILE */
-        for (int i = 0; i < SIZE; i++) {
-            HAL_GPIO_TogglePin(GPIOE, gpio_pins[i]);
-            HAL_Delay(50);
+        int random_number = rand() % 100 + 1;
+        switch (random_number) {
+            case 0 ... 25:
+                HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_0);
+                HAL_Delay(100);
+                HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_0);
+                continue;
+            case 26 ... 50:
+                HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_1);
+                HAL_Delay(100);
+                HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_1);
+                continue;
+            case 51 ... 75:
+                HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_2);
+                HAL_Delay(100);
+                HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_2);
+                continue;
+            case 76 ... 100:
+                HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_3);
+                HAL_Delay(100);
+                HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_3);
+                continue;
         }
 
         /* USER CODE BEGIN 3 */
